@@ -17,6 +17,7 @@ public class _Supplier {
     }
 
     //using supplier
+    // takes no argument and returns a result.
     static Supplier<String> getDBConnectionUrlSupplier=()
             -> "jdbc://localhost:5432/books";
 }
