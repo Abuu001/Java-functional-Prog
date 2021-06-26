@@ -19,6 +19,7 @@ public class _Predicate {
     }
 
     //predicate func
+    //when working with boolean values
     static Predicate<String> isPhoneNumberValidPredicate= phoneNumber->
             phoneNumber.startsWith("07") && phoneNumber.length() ==11;
 }
